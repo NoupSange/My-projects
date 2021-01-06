@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey ya</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="./images/Apple_logo.svg" alt="logo"></a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Часы</a></li>
+                    <li><a href="#">Аксессуары</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="information">
+            <div class="overlay"></div> 
+            <img src="./images/mobile.png" alt="mobile" class="mobile">
+            <div id="circle">
+                <div class="feature one">
+                    <div>
+                        <h1>Дисплей</h1>
+                        <p>	LTPO OLED</p>
+                    </div>
+                </div>
+                <div class="feature two">
+                    <div>
+                        <h1>Процессор</h1>
+                        <p>Apple Watch Series 5</p>
+                    </div>
+                </div>
+                <div class="feature three">
+                    <div>
+                        <h1>Питание</h1>
+                        <p>Время автономной работы - 18 ч</p>
+                    </div>
+                </div>
+                <div class="feature four">
+                    <div>
+                        <h1>Погружение в воду</h1>
+                        <p>до 50 м</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <img src="images/arrow.png" alt="" id="upBtn">
+            <h3>Характеристики
+            </h3>
+            <img src="images/arrow.png" alt="" id="downBtn">
+        </div>
+        <script>
+            let circle = document.getElementById("circle");
+            let upBtn = document.getElementById("upBtn");
+            let downBtn = document.getElementById("downBtn");
+
+            let rotateValue = circle.style.transform;
+            let rotateSum;
+
+            upBtn.onclick = function(){
+                rotateSum = rotateValue + "rotate(-90deg)";
+                circle.style.transform = rotateSum;
+                rotateValue = rotateSum;
+            }
+            downBtn.onclick = function(){
+                rotateSum = rotateValue + "rotate(90deg)";
+                circle.style.transform = rotateSum;
+                rotateValue = rotateSum;
+            }
+        </script>
+         <input type="button" value="Купить" class="saleBtn">
+    </div>
+   
+
+</body>
+</html>

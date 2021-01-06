@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main {
+    -webkit-user-select: none;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #050505, #c2c6c9);
+}
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo img{
+    width: 150px;
+}
+.nav-links{
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.information{
+    width:1000px;
+    height:1000px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+#circle{
+    width:1000px;
+    height:1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.feature img{
+    width: 70px;
+}
+.feature{
+    position: absolute;
+    display: flex;
+    color: #fff;
+ 
+}
+.one{
+    top: 500px;
+    right: 150px;
+    transform:translateY(-50%);
+}
+.two{
+    right: 412px;
+    transform: rotate(-90deg); 
+    top:175px;   
+}
+.three{
+    writing-mode: sideways-rl;
+    bottom: 474px;
+    left: 45px;
+    transform: rotate(-180deg);
+}
+.four{
+    bottom: 110px;
+    right: 350px;
+    transform: rotate(-270deg);
+}
+.mobile{
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+.controls{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.controls h3{
+    margin: 15px 0;
+    color: #fff;
+}
+#upBtn{
+    z-index: 1000;
+    width: 15px;
+    cursor: pointer;
+}
+#downBtn{
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+.overlay{
+    z-index: 1000;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top:500px solid wheat;
+    border-right:500px solid transparent;
+    border-left:500px solid  wheat;
+    border-bottom:500px solid  wheat;
+    top:0;
+    left: 0;
+}
+.saleBtn{
+    font-family: inherit;
+    font-size: 1rem;
+    position: absolute;
+    border-radius: 25px;
+    right: 10%;
+    top: 90%;
+    background-color: rgb(34, 33, 33);
+    padding: 10px;
+    min-width: 200px;
+    color: white;
+    border: 0px;
+    outline: none;
+    box-shadow:0 0 10px rgba(0,0,0,0.5)
+}
+.saleBtn:hover{
+background-color: ivory;
+color: black;
+transition: 0.2s;
+}
