@@ -1,5 +1,4 @@
 # My-projects
-Hello there!This is my project list for getting a job!
 
 Здравствуйте!
 Меня зовут Михаил и я хочу стать front-end разработчиком. Но мне интересен не только  front-end, но и back-end. 
