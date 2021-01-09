@@ -25,6 +25,7 @@ Hello there!This is my project list for getting a job!
 А также:
 -Хорошо знаю графические редакторы: Photoshop, Adobe Illustrator, использовал и другие менее известные редакторы для более специфичных задач,например, ArtRage.
 -Владею программами для монтажа видео: Sony Vegas, Adobe Premiere, Adobe After, Adobe After Effects.
+-Обучался 3-D моделированию, знаю основы Cinema 4D, 3Ds Max, KeyShot.
 Мои работы Вы можете посмотреть на Яндекс Диске: 
 
 Опыт работы.
